@@ -17,3 +17,13 @@ let orders = [10, 25, 15, 30, 20];
 orders[2] += 5;
 let total = orders.reduce((sum, order) => sum + order, 0);
 console.log(total);
+
+
+//Task 3 Employee Performance Tracking Scenario
+// Decleared object of employee
+let employee = {
+    name: "Gavrie Grant",
+    role: "Marketing Manager",
+    performanceScore: 80,
+    isActive: true
+};
