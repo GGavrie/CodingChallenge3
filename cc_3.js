@@ -64,3 +64,18 @@ feedback.push({
 });
 
 console.log(feedback);
+
+
+//Task 5 Inventory Management Scenario
+// Decleared object of inventory
+let inventory = {
+    itemName: "Washing Machine",
+    stockCount: 15,
+    price: 2000,
+    calculateTotalValue: function() {
+        return this.stockCount * this.price;
+    }
+};
+
+// Logged the total value of the inventory to the console
+console.log(inventory.calculateTotalValue());
