@@ -34,3 +34,33 @@ employee.performanceScore = 95;
 employee.promotionEligible = true;
 
 console.log(employee);
+
+
+//Task 4 Customer Feedback Records Scenario
+// Decleared array of feedback
+let feedback = [
+    {
+        customerName: "Allana Grant",
+        feedbackText: "Great service",
+        rating: 5
+    },
+    {
+        customerName: "Gemma Grant",
+        feedbackText: "Fast delivery",
+        rating: 4
+    },
+    {
+        customerName: "Chaz Marie",
+        feedbackText: "Good product",
+        rating: 4
+    }
+];
+
+// Added a new feedback to the array
+feedback.push({
+    customerName: "Wayne Rooney",
+    feedbackText: "Excellent quality",
+    rating: 5
+});
+
+console.log(feedback);
