@@ -27,3 +27,10 @@ let employee = {
     performanceScore: 80,
     isActive: true
 };
+// Updated the performance score of the employee
+employee.performanceScore = 95;
+
+// Added a new property to the employee object
+employee.promotionEligible = true;
+
+console.log(employee);
